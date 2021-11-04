@@ -3,11 +3,7 @@ steps:
     command: "npm install && npm test"
 
   - name: ":node2:"
-    command: "npm install && npm pack --unsafe-perm"
-
-  - name: ":node3:"
     command: "pip install --upgrade cloudsmith-cli"
 
-  - name: ":node4:"
-    command: "cloudsmith push npm cloudsmith-test/buildkite-demo nodejs-docker-example-1.0.0.tgz"
-  
+  - name: ":node3:"
+    command: "npm install && npm pack --unsafe-perm && cloudsmith push npm cloudsmith-test/buildkite-demo nodejs-docker-example-1.0.0.tgz"
