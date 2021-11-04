@@ -7,4 +7,7 @@ steps:
 
   - name: ":node3:"
     command: "pip install --upgrade cloudsmith-cli"
+
+  - name: ":node4:"
+    command: "cloudsmith push npm cloudsmith-test/buildkite-demo nodejs-docker-example-1.0.0.tgz"
   
