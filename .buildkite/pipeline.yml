@@ -1,7 +1,5 @@
 steps:
   - name: ":node:"
     command: "npm install && npm test"
-  - name: ":nodejs: Build It"
-    command: "npm run build:prod"
-    artifact_paths: "dist/**/*"
+
   
