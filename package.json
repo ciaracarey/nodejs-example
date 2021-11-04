@@ -1,22 +1,14 @@
 {
   "name": "nodejs-docker-example",
+  "version": "1.0.0",
+  "description": "magically create dir",
+  "main": "index.js",
   "scripts": {
     "test": "mocha ./test.js"
   },
   "devDependencies": {
     "mocha": "9.1.3"
   },
-  "description": "[![Add to Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)",
-  "version": "1.0.0",
-  "main": "test.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ciaracarey/nodejs-example.git"
-  },
-  "author": "some guy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ciaracarey/nodejs-example/issues"
-  },
-  "homepage": "https://github.com/ciaracarey/nodejs-example#readme"
+  "author": "some person",
+  "license": "ISC"
 }
