@@ -1,8 +1,7 @@
 steps:
   - name: ":node:"
     command: "npm install && npm test"
-  -name: "build package"
-    command: "npm pack"
-  -name: "publish to cloudsmith"
-    command: "pip install --upgrade cloudsmith-cli"
+  - name: ":nodejs: Build It"
+    command: "npm run build:prod"
+    artifact_paths: "dist/**/*"
   
