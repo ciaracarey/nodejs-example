@@ -5,6 +5,6 @@ steps:
   - name: ":node2:"
     command: "npm install && npm pack --unsafe-perm"
 
-  -name: ":install cloudsmith cli"
+  - name: ":node3:"
     command: "pip install --upgrade cloudsmith-cli"
   
