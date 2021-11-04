@@ -2,4 +2,7 @@ steps:
   - name: ":node:"
     command: "npm install && npm test"
 
+  - name: ":node2:"
+    command: "npm install && npm pack --unsafe-perm"
+
   
